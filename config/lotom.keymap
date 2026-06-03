@@ -76,11 +76,11 @@
 
         KIGOU {
             bindings = <
-&trans  &trans
-&none   &kp N7  &kp N8  &kp NUMBER_9  &kp SLASH     &trans  &kp HOME  &kp PAGE_UP    &kp RC(LEFT_ARROW)  &kp UP_ARROW      &kp RC(RIGHT_ARROW)  &trans
-&none   &kp N4  &kp N5  &kp N6        &kp EQUAL     &trans  &kp END   &kp PAGE_DOWN  &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &trans
-&none   &kp N1  &kp N2  &kp N3        &kp QUESTION  &trans  &trans    &trans         &trans              &kp LC(UP_ARROW)  &trans               &trans
-&trans  &kp N0  &trans  &trans        &trans        &trans  &trans    &trans         &trans              &trans
+&trans       &trans
+&kp PERCENT  &kp DLLR   &kp AMPERSAND  &kp CARET        &kp SLASH     &trans  &kp HOME  &kp BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN     &kp GREATER_THAN
+&kp AT       &kp HASH   &kp ASTRK      &kp PLUS         &kp EQUAL     &trans  &kp END   &kp UNDER      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI          &kp COLON
+&kp GRAVE    &kp TILDE  &kp MINUS      &kp EXCLAMATION  &kp QUESTION  &trans  &trans    &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
+&trans       &trans     &trans         &trans           &trans        &trans  &trans    &trans         &trans                &trans
             >;
 
             sensor-bindings = <
