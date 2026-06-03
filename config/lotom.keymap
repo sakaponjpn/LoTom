@@ -76,11 +76,11 @@
 
         KIGOU {
             bindings = <
-&trans     &trans
-&kp GRAVE  &kp LC(LS(TAB))         &kp LG(RIGHT)  &kp NUMBER_9             &kp SLASH     &trans  &kp HOME  &kp PAGE_UP    &kp RC(LEFT_ARROW)  &kp UP_ARROW      &kp RC(RIGHT_ARROW)  &trans
-&kp TAB    &kp LA(LG(LEFT_ARROW))  &kp LG(LEFT)   &kp LG(LA(RIGHT_ARROW))  &kp EQUAL     &trans  &kp END   &kp PAGE_DOWN  &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &trans
-&kp LCMD   &kp LG(LS(LEFT_ARROW))  &trans         &kp LG(LS(RIGHT_ARROW))  &kp QUESTION  &trans  &trans    &trans         &trans              &kp LC(UP_ARROW)  &trans               &trans
-&trans     &trans                  &trans         &trans                   &trans        &trans  &trans    &trans         &trans              &trans
+&trans  &trans
+&none   &kp N7  &kp N8  &kp NUMBER_9  &kp SLASH     &trans  &kp HOME  &kp PAGE_UP    &kp RC(LEFT_ARROW)  &kp UP_ARROW      &kp RC(RIGHT_ARROW)  &trans
+&none   &kp N4  &kp N5  &kp N6        &kp EQUAL     &trans  &kp END   &kp PAGE_DOWN  &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &trans
+&none   &kp N1  &kp N2  &kp N3        &kp QUESTION  &trans  &trans    &trans         &trans              &kp LC(UP_ARROW)  &trans               &trans
+&trans  &kp N0  &trans  &trans        &trans        &trans  &trans    &trans         &trans              &trans
             >;
 
             sensor-bindings = <
