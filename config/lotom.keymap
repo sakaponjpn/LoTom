@@ -31,11 +31,11 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE  &kp BACKSPACE
-&kp Q       &kp W          &kp E         &kp R             &kp T        &mo 6             &kp BACKSLASH      &kp Y        &kp U         &lt 2 I    &kp O    &kp P
-&kp A       &kp S          &kp D         &kp F             &kp G        &mo 6             &kp BACKSLASH      &kp H        &kp J         &kp K      &kp L    &mt RCTRL DEL
-&kp Z       &kp X          &kp C         &kp V             &kp B        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N        &kp M         &kp COMMA  &kp DOT  &mt RIGHT_SHIFT TAB
-&kp LCTRL   &kp LEFT_GUI   &kp LEFT_ALT  &lt 3 LEFT_SHIFT  &lt 4 SPACE  &lt 5 INT_HENKAN  &lt 4 BACKSPACE    &lt 3 ENTER  &lt 2 ESCAPE  &kp ESC
+&kp ESCAPE        &kp BACKSPACE
+&kp Q             &kp W          &kp E         &kp R             &kp T        &mo 6             &kp BACKSLASH      &kp Y        &kp U         &lt 2 I    &kp O    &kp P
+&mt LCTRL A       &kp S          &kp D         &kp F             &kp G        &mo 6             &kp BACKSLASH      &kp H        &kp J         &kp K      &kp L    &mt RCTRL DEL
+&mt LEFT_SHIFT Z  &kp X          &kp C         &kp V             &kp B        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp N        &kp M         &kp COMMA  &kp DOT  &mt RIGHT_SHIFT TAB
+&kp LCTRL         &kp LEFT_GUI   &kp LEFT_ALT  &lt 3 LEFT_SHIFT  &lt 4 SPACE  &lt 5 INT_HENKAN  &lt 4 BACKSPACE    &lt 3 ENTER  &lt 2 ESCAPE  &kp ESC
             >;
 
             sensor-bindings = <
@@ -46,11 +46,11 @@
 
         MOUSE {
             bindings = <
-&trans     &trans
-&trans     &trans        &trans            &trans          &trans  &trans  &trans  &trans  &trans    &to 2     &trans    &trans
-&trans     &trans        &trans            &trans          &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans     &trans        &trans            &trans          &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans  &trans  &trans  &mo 3   &trans    &trans
+&trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &to 0   &trans  &trans    &to 2     &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans
             >;
 
             sensor-bindings = <
@@ -61,11 +61,11 @@
 
         SCROLL {
             bindings = <
-&trans      &trans
-&kp ESCAPE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F12     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F12     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
@@ -74,7 +74,7 @@
             >;
         };
 
-        ARROW {
+        KIGOU {
             bindings = <
 &trans     &trans
 &kp GRAVE  &kp LC(LS(TAB))         &kp LG(RIGHT)  &kp NUMBER_9             &kp NUMBER_0       &trans  &trans  &trans  &kp RC(LEFT_ARROW)  &kp UP_ARROW      &kp RC(RIGHT_ARROW)  &kp LG(P)
